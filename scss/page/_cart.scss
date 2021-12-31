@@ -1,0 +1,28 @@
+.cart{
+    .cartProduct{
+        width: 110px;
+        height: 110px;
+        @include mobile{
+            width: 157px;
+            height: 106px;
+        }
+    }
+    .cartProduct1{
+        background-image: url(https://bit.ly/2QvsT63);
+    }
+    .cartProduct2{
+        background-image: url(https://bit.ly/2zBDAxX);
+    }
+    .cartProduct3{
+        background-image: url(https://bit.ly/2zKOP7w);
+    }
+    input{
+        width: 48px;
+    }
+    .cost{
+        @include mobile{
+            border-top: 1px solid $secondary;
+            padding-top: 8px;
+        }
+    }
+}

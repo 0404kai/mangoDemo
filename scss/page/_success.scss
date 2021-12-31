@@ -1,0 +1,18 @@
+.success{
+    .banner{
+        background-image: url(https://bit.ly/2P7GhNd);
+        height: 460px;
+    }
+    .checkCircle{
+        border: none;
+        &.pass{
+            color: $secondary;
+            background-color: $primary;
+        }
+    }
+    .checkLine{
+        &:after{
+            background-color: $primary;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.link-primary-hover {
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 3px solid $primary;
+        transition: 0.4s;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+
+}
+
+.link-danger-hover {
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 3px solid $danger;
+        transition: 0.4s;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+
+}
+
+.flip-hover {
+    &:hover {
+        transform: rotateY(360deg);
+        transition: 1s;
+    }
+}

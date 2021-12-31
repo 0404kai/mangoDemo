@@ -1,0 +1,47 @@
+.productBanner{
+    .banner{
+        background-image: url(https://bit.ly/2Qodh3Z);
+        height: 496px;
+        @include mobile{
+            height: 277px;
+        }
+        img{
+            right: 40px;
+            top: 40px;
+            @include mobile{
+                right: 30px;
+                top: 30px;
+            }
+        }
+    }
+}
+.productList{
+    .productList1{
+        background-image: url(https://bit.ly/2QiWeQW);
+    }
+    .productList2{
+        background-image: url(https://bit.ly/2zBjQuq);
+    }
+    .productList3{
+        background-image: url(https://bit.ly/2zKOP7w);
+    }
+    .productList4{
+        background-image: url(https://bit.ly/2NcDVuB);
+    }
+    .productList5{
+        background-image: url(https://bit.ly/2zBDAxX);
+    }
+    .productList6{
+        background-image: url(https://bit.ly/2zL5jN7);
+    }
+}
+.menuList{
+    a:hover{
+        background-color: $secondary;
+    }
+}
+.pagination{
+    a:hover{
+        background-color: $secondary;
+    }
+}

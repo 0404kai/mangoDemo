@@ -1,0 +1,88 @@
+.indexBanner{
+    .banner{
+        background-image: url(../../img/mangoBanner.jpg);
+        height: 496px;
+    }
+    .bannerList{
+        height: 256px;
+        filter: blur(5px);
+        transition: .5s;
+    }
+    .bannerList1{
+        background-image: url(https://bit.ly/2R5tqwD);
+    }
+    .bannerList2{
+        background-image: url(https://bit.ly/2Dwoxd7);
+    }
+    .bannerList3{
+        background-image: url(https://bit.ly/2OUteif);
+    }
+    li{
+        width: 260px;
+        margin-top: -90px;
+        &:hover .bannerList{
+            filter: blur(0px);
+        }
+        span{
+            position: absolute;
+            letter-spacing: 5px;
+        }
+        a{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            opacity: 0.8;
+            transition: .5s;
+        }
+    }
+}
+.introduce{
+    .introduceBanner1{
+        background-image: url(../../img/mangoList1.jpg);
+    }
+    .introduceBanner2{
+        background-image: url(../../img/mangoList2.jpg);
+    }
+    .introduceSpace{
+        height: 460px;
+        margin: -20px 0;
+        @include mobile{
+            height: 250px;
+            margin: 0;
+        }
+    }
+    p{
+        line-height: 2.5;
+        @include mobile{
+            writing-mode: horizontal-tb;
+            line-height: 2;
+            br{
+                display: none;
+            }
+        }
+    }
+}
+.productList{
+    .productList1{
+        background-image: url(https://bit.ly/2zBjQuq);
+    }
+    .productList2{
+        background-image: url(https://bit.ly/2zBDAxX);
+    }
+    .productList3{
+        background-image: url(https://bit.ly/2QbVsVR);
+    }
+    .productSpace{
+        height: 315px;
+    }
+    .tag{
+        left: 20px;
+        letter-spacing: 5px;
+    }
+    .heart{
+        right: 20px;
+        top: 20px;
+    }
+}

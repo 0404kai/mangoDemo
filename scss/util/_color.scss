@@ -1,0 +1,11 @@
+@include mobile{
+    .text-md-primary{
+        color: $primary !important;
+    }
+    .bg-md-secondary{
+        background-color: $secondary !important;
+    }
+    .bg-md-white{
+        background-color: $white !important;
+    }
+}

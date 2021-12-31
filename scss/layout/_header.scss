@@ -1,0 +1,26 @@
+nav{
+    .logo{
+        background: url(../../img/mangoLogo.png);
+        width: 220px;
+        height: 40px;
+    }
+    .menu{
+        @include mobile{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 52px;
+            z-index: 10;
+            opacity: 0.9;            
+            li{
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+                a:active{
+                    color: $white;
+                    background: $primary;
+                }
+            }
+        }
+    }
+}

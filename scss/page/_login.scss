@@ -1,0 +1,50 @@
+.login{
+    .personIcon,.keyIcon{
+        top: 16px;
+        left: 20px;
+    }
+    .community{
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 56px;
+        transition: .5s;
+        &:hover{
+            opacity: .7;
+        }
+    }
+    .fbLogo{
+        background-image: url(../img/facebook.png);
+    }
+    .googleLogo{
+        background-image: url(../img/google.png);
+    }
+    .yahooLogo{
+        background-image: url(../img/yahoo.png);
+    }
+}
+input[type=checkbox] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    position: relative;
+}
+    
+input[type=checkbox]:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-color: $white;
+    color: #fff;
+    padding: 0px 3px;
+    transition: .5s;
+}
+
+input[type=checkbox]:checked:after {
+    content: "✓";
+    font-size: 12px;
+    background-color: $primary;
+    border: 1px solid #fff;
+}

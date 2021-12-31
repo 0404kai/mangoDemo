@@ -1,0 +1,26 @@
+.cart{
+    .cartProduct{
+        width: 120px;
+        height: 80px;
+    }
+}
+.transport{
+    .form-control-lg{
+        border-radius: 0;
+        border: none;
+    }
+    input{
+        background-color: $secondary;
+        &::placeholder{
+            color: $success;
+        }
+    }
+}
+.post.active{
+    color: $primary !important;
+    background-color: $secondary !important;
+}
+.electronic.active{
+    color: $secondary !important;
+    background-color: $primary !important;
+}
